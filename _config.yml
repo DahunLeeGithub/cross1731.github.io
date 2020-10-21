@@ -227,3 +227,8 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+remote_theme : daattali/beautiful-jekyll
+
+url : "https://cross1731.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl : "" # the subpath of your site, e.g. "/blog"
