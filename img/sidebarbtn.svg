@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="33" viewBox="0 0 51 33">
+  <g id="사이드바_버튼" data-name="사이드바 버튼" transform="translate(0 1)">
+    <line id="선_1" data-name="선 1" x2="50" transform="translate(0.5 0.5)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3" opacity="0.501"/>
+    <line id="선_2" data-name="선 2" x2="50" transform="translate(0.5 15.5)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3" opacity="0.501"/>
+    <line id="선_3" data-name="선 3" x2="50" transform="translate(0.5 30.5)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3" opacity="0.501"/>
+    <rect id="사각형_3" data-name="사각형 3" width="51" height="31" fill="none"/>
+  </g>
+</svg>

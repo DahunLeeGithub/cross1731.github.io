@@ -1,0 +1,76 @@
+#main {
+    background-color: black;
+    width: auto;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.toppics {
+    align-content: center;
+}
+
+#top {
+    position: relative;
+    top: 0px;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+
+#sidebarbtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    background-color: none;
+    color: none;
+}
+
+#sidebarbtn {
+    background-color: unset;
+    border: none;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background: white;
+    opacity: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#logo {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: unset;
+    top: 140px;
+    margin-top: 30px;
+    left: 50%;
+    transform:translate(-50%, 0%);
+}
+
+#logo_club {
+    position: absolute;
+    font-size: 50;
+    color: white;
+    letter-spacing: 30px;
+    visibility: hidden;
+    transform: translate(0%, -30px);
+    opacity: 0%;
+}
+
+#logo:hover #logo_club{
+    opacity: 100%;
+    visibility: visible;
+    transform: translate(0%, -55px);
+    transition-duration: 0.3s;
+}
