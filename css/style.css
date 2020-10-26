@@ -67,6 +67,20 @@ body {
     opacity: 0;
 }
 
+#logo_main {
+    width: 311px;
+    height: 219px;
+    background-image: url(../img/woozoologo_low.png) ;
+}
+
+@media all and (min-width:1200px) {
+    #logo_main {
+        width: 622px;
+        height: 438px;
+        background-image: url(../img/woozoologo.png) ;
+    }
+}
+
 #logo:hover #logo_club {
     opacity: 100;
     transform: translate(0%, -100%);
@@ -143,19 +157,18 @@ body {
 }
 
 #container {
-    width: 310px;
-    height: 310px;
+    width: 620px;
+    height: 620px;
     display: grid;
-    grid-auto-rows: 100px;
-    grid-auto-columns: 100px;
-    row-gap: 5px;
-    column-gap: 5px;
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    row-gap: 10px;
+    column-gap: 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 
-
-@media all and (min-width:1200px) {
+@media (min-width:1200px) {
     #container {
         width: 1200px;
         height: 1200px;
